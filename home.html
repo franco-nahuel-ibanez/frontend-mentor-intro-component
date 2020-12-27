@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--normalize-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--styles-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+    <section class="section">
+        <article class="section-article">
+            <h1>Learn to code by watching others</h1>
+            <p class="text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable.
+            </p>
+        </article>
+
+        <div class="section-form">
+            <article class="card">
+                <span>Try it free 7 days </span>then $20/mo. thereafter
+            </article>
+
+            <form>
+                <input class="first-name input" type="text" placeholder="First Name" name="first-name"/>
+                <img class="img-first-name oculto" src="./images/icon-error.svg" />
+                <p class="message text-first-name oculto">First Name cannot by empty</p>
+
+                <input class="last-name input" type="text" placeholder="Last Name" name="last-name"/>
+                <img class="img-last-name oculto" src="./images/icon-error.svg" />
+                <p class="message text-last-name oculto">Last Name cannot by empty</p>
+
+
+                <input class="email input" type="text" placeholder="Email Address" name="email"/>
+                <img class="img-email oculto" src="./images/icon-error.svg" />
+                <p class="message text-email oculto">Email cannot by empty</p>
+
+                <input class="pass input" type="password" placeholder="Password" name="pass"/>
+                <img class="img-pass oculto" src="./images/icon-error.svg" />
+                <p class="message text-pass oculto">Password cannot by empty</p>
+
+                <button class="input btn" type="button">Claim your free trial</button>
+                
+                <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://www.frontendmentor.io/profile/franco-nahuel-ibanez">Franco Ibañez</a>.
+        </p>
+    </footer>
+    
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
